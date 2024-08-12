@@ -6,3 +6,4 @@ Yfinance
 Pandas
 IPython
 Pytest
+Python-dotenv

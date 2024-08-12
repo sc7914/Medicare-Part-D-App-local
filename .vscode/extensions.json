@@ -1,5 +1,11 @@
 {
     "recommendations": [
-        "ms-vscode.powershell"
+        "ms-vscode.powershell",
+        "ms-python.python",
+        "github.remotehub",
+        "github.copilot-chat",
+        "github.copilot",
+        "github.codespaces",
+        "github.vscode-github-actions"
     ]
 }

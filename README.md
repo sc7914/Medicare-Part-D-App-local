@@ -7,7 +7,8 @@ conda create -n ump-env python=3.12
 #Activate the environment:
 
 conda activate ump-env
-Install packages:
+
+#Install packages:
 
 #pip install requests
 #pip install plotly
