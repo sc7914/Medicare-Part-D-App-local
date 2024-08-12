@@ -7,3 +7,4 @@ Pandas
 IPython
 Pytest
 Python-dotenv
+Pyngrok
