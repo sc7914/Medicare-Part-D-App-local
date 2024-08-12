@@ -1,3 +1,5 @@
+
+
 from flask_ngrok import run_with_ngrok
 from flask import Flask
 
@@ -7,7 +9,10 @@ run_with_ngrok(app)   #starts ngrok when the app is run
 def home():
     return
 
-!ngrok http 5000  # Replace 5000 with your Flask app's port
+# ngrok command to expose the Flask app
+# ngrok command to expose the Flask app
+# Replace 5000 with your Flask app's port
+!ngrok http 5000
 
 from flask import Flask
 from flask_ngrok import run_with_ngrok
