@@ -1,5 +1,4 @@
 Flask-ngrok
-Flaskflas
 Gunicorn
 Requests
 Plotly
@@ -9,3 +8,5 @@ IPython
 Pytest
 Python-dotenv
 Pyngrok
+Flask_sqlalchemy
+Flask

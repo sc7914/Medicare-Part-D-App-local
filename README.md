@@ -28,12 +28,24 @@ python -m app.revenue
 #Calculate exposure:
 python -m app.exposure
 
+def fetch_stocks_csv():
+	# Function implementation
+	pass
+
+def company_data():
+	# Function implementation
+	pass
+
+def format_usd(value):
+	# Function implementation
+	return f"${value:,.2f}"
+
 # Run the web app (then view in the browser at http://localhost:5000/):
 
 # Mac OS:
-FLASK_APP=web_app flask run
+export FLASK_APP=web-app/app.py
+FLASK_APP=web_app/app.py flask run
 
-export FLASK_APP=web_app
 flask run
 
 ##Testing
