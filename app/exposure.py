@@ -10,8 +10,8 @@ Original file is located at
 def calculate_percentage(obtained, total):
   return (obtained/total)*100
 
-medicare_spend = float(input("Enter total Medicare Part D spend: "))
-total_revenue = float(input("Enter total revenue: "))
+medicare_spend = float(input("Enter total Medicare Part D spend: ").replace(',', ''))
+total_revenue = float(input("Enter total revenue: ").replace(',', ''))
 
 percentage = calculate_percentage(medicare_spend, total_revenue)
 print(f"Total Medicare Part D Exposure: {percentage:,.1f}%")
